@@ -10,6 +10,7 @@ namespace NestFun.Firebase.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.ReturnUrl = "test.com";
             return View();
         }
 
